@@ -71,5 +71,5 @@ class Agent:
                 if self.avg_buy_price > 0 else 0 # 주당 매수 단가 대비 주가 등락률
         )
             
-    #def decide_action(self, pred_value, pred_policy, epsilon):
+    def decide_action(self, pred_value, pred_policy, epsilon):
         
